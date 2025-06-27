@@ -3,7 +3,6 @@
 
 # Laravel & Symfony environment files 
 /.env
-.env.*
 
 # Log files
 *.log
