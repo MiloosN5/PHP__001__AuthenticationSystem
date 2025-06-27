@@ -1,0 +1,25 @@
+# Composer dependencies
+/vendor/
+
+# Laravel & Symfony environment files 
+/.env
+.env.*
+
+# Log files
+*.log
+
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# Cache 
+cache/
+tmp/
+
+# Additional (Temp)
+temp.txt
+tempNotes.txt

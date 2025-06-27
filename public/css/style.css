@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+input {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid black;
+    padding: 40px;
+    align-self: normal;
+    gap: 30px;
+}
+
+.root-header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.root-header nav ul {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.root-header nav ul li {
+    border: 1px solid black;
+}
+
+.root-header nav ul li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.message {
+    font-style: italic;
+}
+
+@media (min-width: 768px) {
+    form {
+        flex-direction: row;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .root-header {
+        flex-direction: row;
+    }
+
+    .root-header nav ul {
+        flex-direction: row;
+    }
+}
